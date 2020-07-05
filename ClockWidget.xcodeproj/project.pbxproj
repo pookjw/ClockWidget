@@ -18,6 +18,8 @@
 		F3D42DDB24B1C3CA00FF7835 /* ClockWidgetExtExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F3D42DCD24B1C3C900FF7835 /* ClockWidgetExtExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F3D42DE024B1C3EA00FF7835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D42DBE24B1C3B000FF7835 /* Assets.xcassets */; };
 		F3D42DE124B1C4C600FF7835 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D42DBC24B1C3AE00FF7835 /* ContentView.swift */; };
+		F3D42DE624B1D3FF00FF7835 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D42DE424B1D3FF00FF7835 /* image.png */; };
+		F3D42DE724B1D3FF00FF7835 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F3D42DE524B1D3FF00FF7835 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		F3D42DD624B1C3CA00FF7835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3D42DD824B1C3CA00FF7835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3D42DE224B1C5BE00FF7835 /* ClockWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClockWidget.entitlements; sourceTree = "<group>"; };
+		F3D42DE424B1D3FF00FF7835 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		F3D42DE524B1D3FF00FF7835 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		F3D42DAE24B1C3AE00FF7835 = {
 			isa = PBXGroup;
 			children = (
+				F3D42DE424B1D3FF00FF7835 /* image.png */,
+				F3D42DE524B1D3FF00FF7835 /* README.md */,
 				F3D42DB924B1C3AE00FF7835 /* ClockWidget */,
 				F3D42DD324B1C3C900FF7835 /* ClockWidgetExt */,
 				F3D42DCE24B1C3C900FF7835 /* Frameworks */,
@@ -221,6 +227,8 @@
 			files = (
 				F3D42DC224B1C3B000FF7835 /* Preview Assets.xcassets in Resources */,
 				F3D42DBF24B1C3B000FF7835 /* Assets.xcassets in Resources */,
+				F3D42DE724B1D3FF00FF7835 /* README.md in Resources */,
+				F3D42DE624B1D3FF00FF7835 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = ClockWidgetExtExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6Q9SP4M9H4;
 				INFOPLIST_FILE = ClockWidgetExt/Info.plist;
@@ -459,7 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = ClockWidgetExtExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6Q9SP4M9H4;
 				INFOPLIST_FILE = ClockWidgetExt/Info.plist;
